@@ -35,7 +35,7 @@ $ sudo systemctl enable jenkins
 $ sudo systemctl start jenkins
 
 
-Afterwards you go to aws security group , enable inbound rule for 8080 port of jenkins.
+Afterwards you'll go to aws security group , enable inbound rule to 8080 port for jenkins.
 Access the jenkins dashboard on your local machine of windows where you will access with EC2's public IP and port 8080.
 First time you have to set up the jenkins dashboard and use it.
 Happy journey....!
