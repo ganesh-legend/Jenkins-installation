@@ -8,7 +8,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 	         /etc/apt/sources.list.d/jenkins.list > /dev/null
 
 
-sudo apt install fontconfig openjdk-17-jre -y
+sudo apt install fontconfig openjdk-17-jre-headless -y
 
 sudo apt install openjdk-17-jdk -y
 
